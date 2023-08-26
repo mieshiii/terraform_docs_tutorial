@@ -1,0 +1,6 @@
+- connecting to AWS using vscode/setup code editor
+  - create a user via console and credential type is set to 
+  access key - programmatic access
+  - install AWS Toolkit extension for vscode
+  - create credentials profile in vscode, type AWS Create Credentials...
+  - click connect to AWS
