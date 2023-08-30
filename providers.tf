@@ -5,6 +5,10 @@ terraform {
       # version = "~> 3.0"
     }
   }
-  
-  required_version = ">= 0.12"
 }
+
+provider "aws" {
+    region = "aws-west-2"
+    shared_credentials_file = "~./aws/creds"
+    profile = "terraform"
+  }
