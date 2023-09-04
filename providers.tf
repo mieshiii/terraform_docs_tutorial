@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-    region = "aws-west-2"
-    shared_credentials_file = "~./aws/creds"
-    profile = "terraform"
-  }
+  region                  = "aws-west-2"
+  shared_credentials_file = "~./aws/creds"
+  profile                 = "terraform"
+}
